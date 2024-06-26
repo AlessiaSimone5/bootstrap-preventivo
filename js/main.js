@@ -75,29 +75,3 @@ bottone.addEventListener('click', function (event) {
     }
 });
 
-//privacy policy
-const privacyPolicy = document.getElementById('privacy');
-console.log(privacyPolicy);
-
-bottone.addEventListener('click', function (event) {
-    event.preventDefault();
-
-    if (privacyPolicy.checked) {
-        console.log('');
-    } else
-        alert('Accettare condizioni privacy policy');
-
-
-
-
-});
-
-//campi
-const nome = document.getElementById('nome');
-const cognome = document.getElementById('cognome');
-const email = document.getElementById('email');
-const textarea = document.getElementById('textarea');
-console.log(nome);
-console.log(cognome);
-console.log(email);
-console.log(textarea);
